@@ -1,0 +1,32 @@
+// ejercicio17.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+
+
+{
+   float pr1,pr2,pr3,pr4,subtotal; 
+   cout << "hamburguesas,hamburguesa con queso,papas fritas,soda"<<endl;
+   cout << "hamburguesa"<<endl;
+   cout << "3bs"<<endl;
+   cin >>pr1;
+   cout << "hamburguesa con queso"<<endl;
+   cout << "5bs"<<endl;
+   cin >>pr2;
+   cout <<"papas fritas"<<endl;
+   cout << "2bs"<<endl;
+   cin >>pr3;
+   cout <<"sodas"<<endl;
+   cout << "2.5bs"<<endl;
+   cin >>pr4
+   subtotal=pr1+pr2+pr3+pr4;
+
+   getch();
+
+}
