@@ -1,0 +1,28 @@
+// numerosliterales.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main()
+{
+	int n,d,c;
+	if((n>c)&&(n<d))
+	{
+		n>0;
+		n<10;
+		cout<<"ingrese numero:";
+	    cin>>n;
+		cout<<"ingrese diez:";
+		cin>>d;
+		cout<<"ingrese cero:";
+		cin>>c;
+	}
+	getch();
+
+
+	
+}
+
+
