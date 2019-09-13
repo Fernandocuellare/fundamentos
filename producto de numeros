@@ -1,0 +1,26 @@
+// productodennumeros.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main()
+{
+	float x,y,p,n;
+	cout<<"ingrese numero:";
+	cin>>n;
+	cout<<"ingrese numero x:";
+	cin>>x;
+	cout<<"ingrese numero y:";
+	cin>>y;
+	cout<<"ingrese el producto:";
+	cin>>p;
+
+	if(p=x*y)
+	{
+
+		cout<<"\n"<<x<<"*"<<y<<"="<<p;
+	}
+	getch();
+}
