@@ -1,0 +1,57 @@
+// examenprimerparcialejercicio1.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+void main()
+{
+	int n,suma=0;
+	cout<<"cantidad de trabajadores:";
+	cin>>n;
+	while(n>0)
+	{
+		cout<<"codigo de cargo:";
+		int c;
+		cin>>c;
+		cout<<"horas trabajadas:";
+		int ch;
+		cin>>ch;
+		cout<<"CARGO:";
+		switch (c)
+		{
+case1:
+		cout<<"Manager"<<endl;
+		cout<<"SUELDO:"<<ch*300<<endl;
+		suma=suma+ch*300;
+			break;
+case2:
+			cout<<"sugerente"<<endl;
+			cout<<"SUELDO"<<ch*250<<endl;
+			suma=suma+ch*250;
+			break;
+case3:
+			cout<<"soporte"<<endl;
+			cout<<"SUELDO"<<ch*150<<endl;
+			suma=suma+ch*150;
+			break;
+case4:
+			cout<<"auxiliar"<<endl;
+			cout<<"SUELDO"<<ch*90<<endl;
+			suma=suma+ch*90;
+			break;
+		default:
+				cout<<"ERROR"<<endl;
+	}
+	n=n-1;
+	}
+    cout<<"total Sueldos a pagar:"<<suma<<endl;
+}
+
+	
+
+
+
+
